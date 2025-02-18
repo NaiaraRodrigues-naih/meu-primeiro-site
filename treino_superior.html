@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="x-ua-compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="path/to/style.css">
+  <title>Treino de Superiores - GymBlog</title>
+</head>
+<body>
+  <div id="area-cabecalho">
+    <div id="area-logo">
+      <h1>Gym<span class="branco">Blog</span></h1><br>
+      <h1>Um Blog<span class="branco">PARA TODOS OS FANS DE ACADEMIA</span></h1><br>
+    </div>
+    <div id="area-menu">
+      <a href="{{ url_for('home') }}">Home</a>
+      <a href="{{ url_for('academia') }}">Academia, Nutrição e Suplementação</a>
+      <a href="{{ url_for('treino_superior') }}">Treino de Superiores</a>
+      <a href="{{ url_for('treino_posterior') }}">Treino de Posteriores</a>
+      <a href="{{ url_for('contatos') }}">Contatos</a>
+    </div>
+  </div>
+  <div id="conteudo">
+    <h2>Treino de Superiores</h2>
+    <p>Conteúdo sobre treino de superiores.</p>
+  </div>
+</body>
+</html>

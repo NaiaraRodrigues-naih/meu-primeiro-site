@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin-bottom: 20px;
+    /* Adiciona espaço entre parágrafos */
+}
+
+p {
+    padding: 10px;
+    /* Espaço interno dentro do parágrafo */
+}
+
+.espaco {
+    height: 50px;
+    /* Cria um espaço vazio de 50px */
+
+}
+
+body {
+    font-size: 1em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #fff;
+}
+
+#area-cabecalho {
+    background-color: #9999ff;
+    padding: 15px;
+    text-align: center;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+#area-logo,
+#area-menu {
+    padding: 10px;
+}
+
+
+#area-cabecalho a:link,
+#area-cabecalho a:visited {
+    color: #fff;
+    padding: 8px 12px;
+}
+
+
+
+#area-cabecalho a:hover {
+    color: #9999ff;
+    background: #fff;
+    text-decoration: none;
+}
+
+h1 {
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+.branco {
+    color: #fff;
+}
